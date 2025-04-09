@@ -7,6 +7,7 @@ import {
   Image,
   TouchableOpacity,
 } from "react-native";
+import { useNavigation } from '@react-navigation/native';
 import { ImageSlider } from "@/components/ImageSlider";
 import { ThemedText } from "@/components/ThemedText";
 import { ThemedView } from "@/components/ThemedView";
@@ -18,6 +19,7 @@ import Partenairs from "@/components/Partenairs";
 import Footer from "@/components/Footer";
 
 export default function HomeScreen(): JSX.Element {
+  
   return (
     <ScrollView style={styles.container} showsVerticalScrollIndicator={false}>
       <ImageSlider />
