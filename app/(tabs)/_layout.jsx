@@ -17,6 +17,21 @@ export default function TabLayout() {
       screenOptions={{
         tabBarActiveTintColor: Colors[colorScheme ?? 'light'].tint,
         tabBarLabelStyle: styles.tabBarLabel,
+        tabBarActiveBackgroundColor: '#0000FF',
+        tabBarInactiveBackgroundColor: '#00FFFF',
+        tabBarWidth: 30,
+        tabBarStyle: {
+          backgroundColor: '#0000FF',
+          borderTopWidth: 1,
+          borderTopColor: '#e0e0e0',
+          height: 60,
+          paddingBottom: 5,
+          elevation: 8, // Ajout d'une ombre pour Android
+          shadowColor: '#000', // Ombre pour iOS
+          shadowOffset: { width: 0, height: -2 },
+          shadowOpacity: 0.1,
+          shadowRadius: 3,
+        },
         headerShown: true,
         headerTitle : () => (
           <View style={styles.headerTitleContainer}>

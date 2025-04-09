@@ -125,11 +125,13 @@ const styles = StyleSheet.create({
   },
   section: {
     marginBottom: 30,
+    backgroundColor: 'transparent',
   },
   titleContainer: {
     flexDirection: 'row',
     alignItems: 'center',
     marginBottom: 10,
+    backgroundColor: 'transparent',
   },
   sectionTitle: {
     fontSize: 18,
@@ -137,6 +139,7 @@ const styles = StyleSheet.create({
     color: '#333333',
     marginBottom: 15,
     marginLeft: 8,
+    backgroundColor: 'transparent',
   },
   description: {
     fontSize: 14,
@@ -148,6 +151,7 @@ const styles = StyleSheet.create({
   socialLinks: {
     flexDirection: 'row',
     marginTop: 10,
+    backgroundColor: 'transparent',
   },
   socialButton: {
     marginRight: 15,
@@ -178,11 +182,13 @@ const styles = StyleSheet.create({
     borderTopColor: '#dddddd',
     paddingTop: 20,
     marginTop: 20,
+    backgroundColor: 'transparent',
   },
   copyrightText: {
     fontSize: 12,
     color: '#666666',
     textAlign: 'center',
     fontFamily: 'Poppins-Regular',
+    backgroundColor: 'transparent',
   },
 }); 
