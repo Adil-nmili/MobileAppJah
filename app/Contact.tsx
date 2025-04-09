@@ -1,9 +1,9 @@
 import React from 'react';
 import { ScrollView, Text, StyleSheet } from 'react-native';
-import FormulaireContact from '../../components/FormulaireContact';
-import ContactMaps from '../../components/ContactMaps';
-import SectionTitle from '../../components/SectionTitle';
-import Footer from '../../components/Footer';
+import FormulaireContact from '../components/FormulaireContact';
+import ContactMaps from '../components/ContactMaps';
+import SectionTitle from '../components/SectionTitle';
+import Footer from '../components/Footer';
 
 const Contact = (): JSX.Element => {
   return (

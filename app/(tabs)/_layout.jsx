@@ -1,6 +1,7 @@
 import { Tabs } from 'expo-router';
 import React from 'react';
-import { Image, Platform, View, StyleSheet } from 'react-native';
+import { Image, View, StyleSheet } from 'react-native';
+import FloatingContactButton from '@/components/FloatingContactButton'; // assure-toi que le chemin est correct
 
 import { HapticTab } from '@/components/HapticTab'
 import { IconSymbol } from '@/components/ui/IconSymbol';
@@ -13,68 +14,45 @@ export default function TabLayout() {
   const colorScheme = useColorScheme();
 
   return (
-    <Tabs
-      screenOptions={{
-        tabBarActiveTintColor: Colors[colorScheme ?? 'light'].tint,
-        tabBarLabelStyle: styles.tabBarLabel,
-        // tabBarActiveBackgroundColor: '#0000FF',
-        // tabBarInactiveBackgroundColor: '#00FFFF',
-        headerShown: true,
-        headerTitle : () => (
-          <View style={styles.headerTitleContainer}>
-            <Image source={require('@/assets/images/LOGO.jpg')} style={styles.headerLogo}/>
-            <ThemedText>
-              JAH INFORMATIQUE
-            </ThemedText>
-          </View>
-        ),
-        tabBarButton: HapticTab,
-        tabBarBackground: TabBarBackground,
-        // tabBarStyle: Platform.select({
-        //   ios: {
-        //     // Use a transparent background on iOS to show the blur effect
-        //     position: 'absolute',
-        //   },
-        //   default: {},
-        // }),
-      }}>
-      <Tabs.Screen
-        name="index"
-        options={{
+    <View style={{ flex: 1 }}>
+      <Tabs
+        screenOptions={{
+          tabBarActiveTintColor: Colors[colorScheme ?? 'light'].tint,
+          tabBarLabelStyle: styles.tabBarLabel,
+          headerShown: true,
+          headerTitle: () => (
+            <View style={styles.headerTitleContainer}>
+              <Image source={require('@/assets/images/LOGO.jpg')} style={styles.headerLogo} />
+              <ThemedText>JAH INFORMATIQUE</ThemedText>
+            </View>
+          ),
+          tabBarButton: HapticTab,
+          tabBarBackground: TabBarBackground,
+        }}
+      >
+        <Tabs.Screen name="index" options={{
           title: 'Accueil',
           tabBarIcon: ({ color }) => <IconSymbol size={20} name="house.fill" color={color} />,
-        }}
-      />
-      <Tabs.Screen
-        name="service"
-        options={{
+        }} />
+        <Tabs.Screen name="service" options={{
           title: 'Services',
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color} />,
-        }}
-      />
-      <Tabs.Screen
-        name="about"
-        options={{
-          title: 'about',
+        }} />
+        <Tabs.Screen name="about" options={{
+          title: 'À propos',
           tabBarIcon: ({ color }) => <IconSymbol size={20} name="question-mark" color={color} />,
-        }}
-      />
-      <Tabs.Screen
-        name="Contact"
-        options={{
-          title: 'Contact',
-          tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color} />,
-        }}
-      />
-    </Tabs>
+        }} />
+      </Tabs>
+
+      {/* Bouton flottant en dehors de Tabs, donc fixe */}
+      <FloatingContactButton />
+    </View>
   );
 }
 
 const styles = StyleSheet.create({
   headerTitleContainer: {
-    display: 'flex',
     flexDirection: 'row',
-    backgroundColor: '#ffffff',
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -83,20 +61,8 @@ const styles = StyleSheet.create({
     height: 30,
     marginRight: 10,
   },
-  tabBar: {
-    backgroundColor: '#ffffff',
-    borderTopWidth: 1,
-    borderTopColor: '#e0e0e0',
-    height: 60,
-    paddingBottom: 5,
-    elevation: 8, // Ajout d'une ombre pour Android
-    shadowColor: '#000', // Ombre pour iOS
-    shadowOffset: { width: 0, height: -2 },
-    shadowOpacity: 0.1,
-    shadowRadius: 3,
-  },
   tabBarLabel: {
     fontFamily: 'TimesNewRomanItalic',
     fontSize: 12,
   },
-})
+});
