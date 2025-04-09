@@ -10,50 +10,230 @@
         "1erAnnee": [
                 {
                     "id": 1,
-                    "titre": "Module 1",
-                    "description": "Description du module 1"
+                    "titre": "Gestion de Projet",
+                    "description": "Apprentissage des méthodologies de gestion de projet, planification, suivi et évaluation des projets."
                 },
                 {
                     "id": 2,
-                    "titre": "Module 2",
-                    "description": "Description du module 2"
-                }
-        ],
-        "2eme semestre": [
+                    "titre": "Management d'Équipe",
+                    "description": "Techniques de leadership, motivation des équipes, résolution de conflits et communication efficace."
+                },
                 {
                     "id": 3,
-                    "titre": "Module 3",
-                    "description": "Description du module 3"
+                    "titre": "Analyse Financière",
+                    "description": "Étude des états financiers, analyse de rentabilité, gestion budgétaire et contrôle de gestion."
                 },
                 {
                     "id": 4,
-                    "titre": "Module 4",
-                    "description": "Description du module 4"
+                    "titre": "Marketing Digital",
+                    "description": "Stratégies de marketing en ligne, réseaux sociaux, SEO, content marketing et analyse de données."
+                }
+        ],
+        "2emeAnnee": [
+                {
+                    "id": 5,
+                    "titre": "Stratégie d'Entreprise",
+                    "description": "Développement de stratégies d'entreprise, analyse concurrentielle et positionnement sur le marché."
+                },
+                {
+                    "id": 6,
+                    "titre": "Innovation et R&D",
+                    "description": "Gestion de l'innovation, recherche et développement, propriété intellectuelle et transfert technologique."
+                },
+                {
+                    "id": 7,
+                    "titre": "Gestion Internationale",
+                    "description": "Commerce international, négociation interculturelle, droit des affaires internationales et gestion des risques."
+                },
+                {
+                    "id": 8,
+                    "titre": "Mémoire Professionnel",
+                    "description": "Réalisation d'un projet de recherche appliquée en entreprise avec soutenance devant un jury professionnel."
                 }
         ]
-      }
-
+      },
+      "debouchés": [
+        "Directeur de Projet",
+        "Consultant en Stratégie",
+        "Responsable Marketing",
+        "Chef de Service",
+        "Entrepreneur"
+      ],
+      "conditionsAdmission": "Licence ou équivalent, entretien de motivation, dossier de candidature"
     },
     {
       "id": 2,
       "titre": "Licence Professionnelle Européenne (FEDE)",
       "duree": "1 an",
       "icone": "code-slash",
-      "description": "La Licence Professionnelle Européenne (FEDE) est un diplôme de niveau Licence 3 qui permet de se spécialiser dans une discipline professionnelle et de l'accompagner dans sa réalisation."
+      "description": "La Licence Professionnelle Européenne (FEDE) est un diplôme de niveau Licence 3 qui permet de se spécialiser dans une discipline professionnelle et de l'accompagner dans sa réalisation.",
+      "specialites": [
+        {
+          "id": 1,
+          "nom": "Développement Web",
+          "description": "Formation aux technologies web modernes, frameworks, et méthodologies de développement agile."
+        },
+        {
+          "id": 2,
+          "nom": "Gestion des Ressources Humaines",
+          "description": "Formation aux techniques de recrutement, gestion de carrière, formation et développement des compétences."
+        },
+        {
+          "id": 3,
+          "nom": "Marketing Digital",
+          "description": "Formation aux stratégies de communication digitale, analyse de données, et gestion de campagnes marketing."
+        }
+      ],
+      "debouchés": [
+        "Développeur Web",
+        "Responsable RH",
+        "Chargé de Marketing Digital",
+        "Chef de Projet Junior",
+        "Consultant en Communication"
+      ],
+      "conditionsAdmission": "Bac+2 ou équivalent, entretien de motivation"
     },
     {
       "id": 3,
       "titre": "Technicien Spécialisé en Gestion d'Entreprise",
       "duree": "2 ans",
       "icone": "server",
-      "description": "Le Technicien Spécialisé en Gestion d'Entreprise est un diplôme de niveau Technicien Supérieur qui permet de se spécialiser dans une discipline professionnelle et de l'accompagner dans sa réalisation."
+      "description": "Le Technicien Spécialisé en Gestion d'Entreprise est un diplôme de niveau Technicien Supérieur qui permet de se spécialiser dans une discipline professionnelle et de l'accompagner dans sa réalisation.",
+      "competences": [
+        "Comptabilité générale et analytique",
+        "Gestion administrative",
+        "Gestion des ressources humaines",
+        "Marketing et communication",
+        "Informatique de gestion",
+        "Droit des affaires",
+        "Langues étrangères appliquées"
+      ],
+      "stages": [
+        {
+          "semestre": 1,
+          "duree": "1 mois",
+          "description": "Stage d'observation et d'initiation"
+        },
+        {
+          "semestre": 4,
+          "duree": "2 mois",
+          "description": "Stage d'application et de professionnalisation"
+        }
+      ],
+      "debouchés": [
+        "Assistant de Direction",
+        "Comptable",
+        "Responsable Administratif",
+        "Chargé de Communication",
+        "Assistant RH"
+      ],
+      "conditionsAdmission": "Baccalauréat, entretien de motivation"
     },
     {
       "id": 4,
       "titre": "Technicien en Gestion Informatisée",
       "duree": "1 an",
       "icone": "laptop",
-      "description": "Le Technicien en Gestion Informatisée est un diplôme de niveau Technicien Supérieur qui permet de se spécialiser dans une discipline professionnelle et de l'accompagner dans sa réalisation."
+      "description": "Le Technicien en Gestion Informatisée est un diplôme de niveau Technicien Supérieur qui permet de se spécialiser dans une discipline professionnelle et de l'accompagner dans sa réalisation.",
+      "competences": [
+        "Systèmes d'information",
+        "Bases de données",
+        "Réseaux informatiques",
+        "Sécurité des systèmes",
+        "Développement d'applications",
+        "Support technique",
+        "Gestion de projets informatiques"
+      ],
+      "stages": [
+        {
+          "semestre": 2,
+          "duree": "1 mois",
+          "description": "Stage d'application en entreprise"
+        }
+      ],
+      "debouchés": [
+        "Technicien Support",
+        "Administrateur Système",
+        "Développeur d'Applications",
+        "Responsable Réseau",
+        "Consultant IT"
+      ],
+      "conditionsAdmission": "Bac+2 en informatique ou équivalent, entretien de motivation"
+    }
+  ],
+  "formations": [
+    {
+      "id": 1,
+      "titreArabe": "الاسعافات الاولية",
+      "titreFrancais": "Secourisme",
+      "description": "Formation aux techniques de premiers secours et de réanimation cardio-pulmonaire",
+      "duree": "20 heures",
+      "niveau": "Tous niveaux",
+      "certification": "Certificat de Compétences de Citoyen de Sécurité Civile (PSC1)",
+      "contenu": [
+        "Protection et alerte",
+        "Obstruction des voies aériennes",
+        "Hémorragies externes",
+        "Plaies et brûlures",
+        "Traumatismes",
+        "Malaise et perte de connaissance",
+        "Arrêt cardiaque et réanimation cardio-pulmonaire",
+        "Utilisation du défibrillateur automatisé externe"
+      ]
+    },
+    {
+      "id": 2,
+      "titreArabe": "اللغة الفرنسية للأعمال",
+      "titreFrancais": "Français des Affaires",
+      "description": "Formation intensive en français professionnel pour les cadres et professionnels",
+      "duree": "60 heures",
+      "niveau": "Intermédiaire à Avancé",
+      "certification": "Certificat de Compétence en Français des Affaires",
+      "contenu": [
+        "Communication professionnelle",
+        "Rédaction de documents d'entreprise",
+        "Présentations et réunions",
+        "Négociation commerciale",
+        "Vocabulaire sectoriel",
+        "Grammaire avancée",
+        "Culture d'entreprise française"
+      ]
+    },
+    {
+      "id": 3,
+      "titreArabe": "إدارة المشاريع",
+      "titreFrancais": "Gestion de Projet",
+      "description": "Formation aux méthodologies et outils de gestion de projet",
+      "duree": "40 heures",
+      "niveau": "Intermédiaire",
+      "certification": "Certificat en Gestion de Projet",
+      "contenu": [
+        "Initiation et planification",
+        "Exécution et suivi",
+        "Gestion des risques",
+        "Gestion des ressources",
+        "Communication projet",
+        "Outils de planification",
+        "Clôture et évaluation"
+      ]
+    },
+    {
+      "id": 4,
+      "titreArabe": "التسويق الرقمي",
+      "titreFrancais": "Marketing Digital",
+      "description": "Formation aux stratégies et outils du marketing digital",
+      "duree": "50 heures",
+      "niveau": "Tous niveaux",
+      "certification": "Certificat en Marketing Digital",
+      "contenu": [
+        "Stratégie de contenu",
+        "Réseaux sociaux",
+        "SEO et SEM",
+        "Email marketing",
+        "Analyse de données",
+        "Publicité en ligne",
+        "E-commerce"
+      ]
     }
   ]
 }
