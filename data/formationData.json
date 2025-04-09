@@ -234,6 +234,28 @@
         "Publicité en ligne",
         "E-commerce"
       ]
+    },
+    {
+      "id": 5,
+      "titreArabe": "الصحافة والاعلام",
+      "titreFrancais": "Journalisme et Communication",
+      "description": "مؤسسة جاه للتكوين المهني الخاص قسم الصحافة وحقيبة المختصر المفيد في مجال الصحافة والإعلام عبر التخصصات التالية : ",
+      "duree": "50 heures",
+      "niveau": "Tous niveaux",
+      "certification": "Certificat en Journalisme et Communication",
+      "contenu": [
+        " تكوين محررين",
+        "معلقيين رياضيين",
+        " مقدم اخبار وبرامج",
+        " التصوير والمنتاج",
+        "الصحافة الإلكترونية"
+      ],
+      "contenuDetaille": [
+        "مدة التكوين 10 أشهر عبر المنصة الرقميةالخاصة  ",
+        "  تتتبع يومي عبر الواتساب",
+        "  يصلكم عبر البريد الإلكتروني والواتساب 4 دروس وتمرين كل شهر",
+        ""
+      ]
     }
   ]
 }
