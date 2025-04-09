@@ -17,6 +17,7 @@ import ObjectifCard from "@/components/ObjectifCard";
 import Caracteres from "@/components/Caracteres";
 import Partenairs from "@/components/Partenairs";
 import Footer from "@/components/Footer";
+// import FloatingContactButton from "@/components/FloatingContactButton";
 
 export default function HomeScreen(): JSX.Element {
   
@@ -65,6 +66,7 @@ export default function HomeScreen(): JSX.Element {
             <Partenairs />
            </ThemedView>
       </ThemedView>
+      
       <Footer />
     </ScrollView>
   );
