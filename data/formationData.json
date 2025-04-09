@@ -161,7 +161,7 @@
       "conditionsAdmission": "Bac+2 en informatique ou équivalent, entretien de motivation"
     }
   ],
-  "formations": [
+ "formationsAutre": [
     {
       "id": 1,
       "titreArabe": "الاسعافات الاولية",
@@ -257,5 +257,29 @@
         ""
       ]
     }
+  ],
+"formations":
+  [
+    {
+      "id": 1,
+      "titre": "Informatique",
+      "description": "Bureautique, Programmation, Maintenance, Infographie, Dessin Assisté par Ordinateur, Réseau & Internet"
+    },
+    {
+      "id": 2,
+      "titre": "Gestion",
+      "description": "Comptabilité, Marketing, Management, Fiscalité, Economie, Audit, Qualité"
+    },
+    {
+      "id": 3,
+      "titre": "Langues Vivantes",
+      "description": "Français, Anglais, Espagnol, Italien, Allemand"
+    },
+    {
+      "id": 4,
+      "titre": "Cours Supplémentaires dans toutes les matières",
+      "description": "Math, Physique, Science"
+    }
   ]
+  
 }
