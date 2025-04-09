@@ -45,13 +45,13 @@ export default function TabLayout() {
           tabBarIcon: ({ color }) => <IconSymbol size={20} name="house.fill" color={color} />,
         }}
       />
-      {/* <Tabs.Screen
+      <Tabs.Screen
         name="service"
         options={{
           title: 'Services',
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color} />,
         }}
-      /> */}
+      />
       <Tabs.Screen
         name="about"
         options={{
@@ -59,13 +59,13 @@ export default function TabLayout() {
           tabBarIcon: ({ color }) => <IconSymbol size={20} name="question-mark" color={color} />,
         }}
       />
-      {/* <Tabs.Screen
+      <Tabs.Screen
         name="Contact"
         options={{
           title: 'Contact',
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color} />,
         }}
-      /> */}
+      />
     </Tabs>
   );
 }
