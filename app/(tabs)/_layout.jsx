@@ -17,21 +17,8 @@ export default function TabLayout() {
       screenOptions={{
         tabBarActiveTintColor: Colors[colorScheme ?? 'light'].tint,
         tabBarLabelStyle: styles.tabBarLabel,
-        tabBarActiveBackgroundColor: '#0000FF',
-        tabBarInactiveBackgroundColor: '#00FFFF',
-        tabBarWidth: 30,
-        tabBarStyle: {
-          backgroundColor: '#0000FF',
-          borderTopWidth: 1,
-          borderTopColor: '#e0e0e0',
-          height: 60,
-          paddingBottom: 5,
-          elevation: 8, // Ajout d'une ombre pour Android
-          shadowColor: '#000', // Ombre pour iOS
-          shadowOffset: { width: 0, height: -2 },
-          shadowOpacity: 0.1,
-          shadowRadius: 3,
-        },
+        // tabBarActiveBackgroundColor: '#0000FF',
+        // tabBarInactiveBackgroundColor: '#00FFFF',
         headerShown: true,
         headerTitle : () => (
           <View style={styles.headerTitleContainer}>
@@ -52,10 +39,10 @@ export default function TabLayout() {
         // }),
       }}>
       <Tabs.Screen
-        name="Accueil"
+        name="index"
         options={{
           title: 'Accueil',
-          tabBarIcon: ({ color }) => <IconSymbol size={28} name="house" color={color} />,
+          tabBarIcon: ({ color }) => <IconSymbol size={20} name="house.fill" color={color} />,
         }}
       />
       <Tabs.Screen
@@ -66,10 +53,10 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="About"
+        name="about"
         options={{
-          title: 'About',
-          tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color} />,
+          title: 'about',
+          tabBarIcon: ({ color }) => <IconSymbol size={20} name="question-mark" color={color} />,
         }}
       />
       <Tabs.Screen
