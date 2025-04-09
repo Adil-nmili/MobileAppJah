@@ -1,0 +1,59 @@
+{
+  "diplomes": [
+    {   
+      "id": 1,
+      "titre": "Master Professionnel Européen (FEDE)",
+      "duree": "2 ans",
+      "icone": "calculator",
+      "description": "Le Master Professionnel Européen (FEDE) est un diplôme de niveau Master 2 qui permet de se spécialiser dans une discipline professionnelle et de l'accompagner dans sa réalisation.",
+      "modules": {
+        "1erAnnee": [
+                {
+                    "id": 1,
+                    "titre": "Module 1",
+                    "description": "Description du module 1"
+                },
+                {
+                    "id": 2,
+                    "titre": "Module 2",
+                    "description": "Description du module 2"
+                }
+        ],
+        "2eme semestre": [
+                {
+                    "id": 3,
+                    "titre": "Module 3",
+                    "description": "Description du module 3"
+                },
+                {
+                    "id": 4,
+                    "titre": "Module 4",
+                    "description": "Description du module 4"
+                }
+        ]
+      }
+
+    },
+    {
+      "id": 2,
+      "titre": "Licence Professionnelle Européenne (FEDE)",
+      "duree": "1 an",
+      "icone": "code-slash",
+      "description": "La Licence Professionnelle Européenne (FEDE) est un diplôme de niveau Licence 3 qui permet de se spécialiser dans une discipline professionnelle et de l'accompagner dans sa réalisation."
+    },
+    {
+      "id": 3,
+      "titre": "Technicien Spécialisé en Gestion d'Entreprise",
+      "duree": "2 ans",
+      "icone": "server",
+      "description": "Le Technicien Spécialisé en Gestion d'Entreprise est un diplôme de niveau Technicien Supérieur qui permet de se spécialiser dans une discipline professionnelle et de l'accompagner dans sa réalisation."
+    },
+    {
+      "id": 4,
+      "titre": "Technicien en Gestion Informatisée",
+      "duree": "1 an",
+      "icone": "laptop",
+      "description": "Le Technicien en Gestion Informatisée est un diplôme de niveau Technicien Supérieur qui permet de se spécialiser dans une discipline professionnelle et de l'accompagner dans sa réalisation."
+    }
+  ]
+}
