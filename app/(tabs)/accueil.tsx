@@ -19,6 +19,7 @@ import Partenairs from "@/components/Partenairs";
 import Footer from "@/components/Footer";
 
 export default function HomeScreen(): JSX.Element {
+  
   return (
     <ScrollView style={styles.container} showsVerticalScrollIndicator={false}>
       <ImageSlider />
