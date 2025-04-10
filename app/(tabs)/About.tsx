@@ -10,7 +10,7 @@ export default function AproposNous(): JSX.Element {
   // const [showMoreArabic, setShowMoreArabic] = useState<boolean>(false);
 
   return (
-    <ScrollView style={styles.container}>
+    <ScrollView showsVerticalScrollIndicator={false} style={styles.container}>
       <Aboutslider />
       <View style={styles.contentContainer}>
         {/* Section Française */}

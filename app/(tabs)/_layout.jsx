@@ -1,7 +1,7 @@
 import { Tabs } from 'expo-router';
 import React from 'react';
 import { Image, View, StyleSheet } from 'react-native';
-import FloatingContactButton from '@/components/FloatingContactButton'; // assure-toi que le chemin est correct
+import FloatingContactButton from '@/components/FloatingContactButton';
 
 import { HapticTab } from '@/components/HapticTab'
 import { IconSymbol } from '@/components/ui/IconSymbol';

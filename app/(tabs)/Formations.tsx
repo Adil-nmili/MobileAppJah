@@ -4,15 +4,16 @@ import CardServices from '@/components/CardServices';
 import SectionTitle from '@/components/SectionTitle';
 import { useRouter } from 'expo-router';
 
+// import FormationsQ form '@/components/FormationsQ';
 const ServicesScreen: React.FC = () => {
   const router = useRouter();
 
   // Fonction pour gérer la navigation lors du clic sur les cartes
   const HandleFormationsQ = () => {
-    router.push('/FormationsQ');  // Utilisation correcte de router.push pour naviguer
+    router.push('/Formations Qualifiant');
   };
   const HandleFormationsPro = () => {
-    router.push('/FormationsPro');  // Utilisation correcte de router.push pour naviguer
+    router.push('/Formations Professionel');
   };
 
   return (
@@ -21,13 +22,13 @@ const ServicesScreen: React.FC = () => {
       {/* Carte pour Formations Qualifiantes */}
       <CardServices
         title="Formations Qualifiantes"
-        image={require('@/assets/images/formation.png')}
+        image={require('@/assets/images/formationQ.png')}
         onPress={() => HandleFormationsQ()} // Route pour Formations Qualifiantes
       />
       {/* Carte pour Formations Professionnelles */}
       <CardServices
         title="Formations Professionnelles"
-        image={require('@/assets/images/diplome.png')}
+        image={require('@/assets/images/formationPro.png')}
         onPress={() => HandleFormationsPro()} // Route pour Formations Professionnelles
       />
     </ScrollView>
