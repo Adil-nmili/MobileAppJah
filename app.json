@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "MobileAppJah",
-    "slug": "MobileAppJah" ,
+    "slug": "MobileAppJah",
     "owner": "adil-nmili",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -50,7 +50,12 @@
       "eas": {
         "projectId": "af7d9ba4-fbaf-4bd9-b5e4-e5e6b193a486"
       }
-      
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/af7d9ba4-fbaf-4bd9-b5e4-e5e6b193a486"
     }
   }
 }

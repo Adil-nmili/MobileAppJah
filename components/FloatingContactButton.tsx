@@ -65,9 +65,10 @@ const FloatingContactButton = () => {
 const styles = StyleSheet.create({
   container: {
     position: 'absolute',
-    zIndex: 100,
-    bottom: 100, // Position de départ du bouton, modifiable selon vos besoins
-    right: 20,
+    zIndex: 10,
+    bottom:  200, // Position de départ du bouton, modifiable selon vos besoins
+    right: 40,
+    backgroundColor: 'transparent',
   },
   button: {
     backgroundColor: '#0000FF',
