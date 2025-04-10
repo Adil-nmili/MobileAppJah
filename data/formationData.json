@@ -161,103 +161,58 @@
       "conditionsAdmission": "Bac+2 en informatique ou équivalent, entretien de motivation"
     }
   ],
- "formationsAutre": [
+  
+"formationsPros": [
     {
-      "id": 1,
-      "titreArabe": "الاسعافات الاولية",
-      "titreFrancais": "Secourisme",
-      "description": "Formation aux techniques de premiers secours et de réanimation cardio-pulmonaire",
-      "duree": "20 heures",
-      "niveau": "Tous niveaux",
-      "certification": "Certificat de Compétences de Citoyen de Sécurité Civile (PSC1)",
-      "contenu": [
-        "Protection et alerte",
-        "Obstruction des voies aériennes",
-        "Hémorragies externes",
-        "Plaies et brûlures",
-        "Traumatismes",
-        "Malaise et perte de connaissance",
-        "Arrêt cardiaque et réanimation cardio-pulmonaire",
-        "Utilisation du défibrillateur automatisé externe"
-      ]
+      "id":1,
+      "image": "https://www.jahinformatique.com/pic/Secourisme/isaafat7.jpg",
+      "title": "Secourisme",
+      "title_ar": "الاسعافات الاولية",
+      "description": "السلام عليكم ورحمة الله وبركاته، تتميما لمسارنا في التكوين و التأطير الاسعافي و حرصنا على تقديم كل ما هو جديد و في حلة زاهية، تقدم لكم \"المنظمة المغربية للإسعاف و الأعمال الإنسانية\" و \"الأكاديمية الحرة ميكا فور\" و \"مؤسسة جاه\" دورة تكوينية في الإسعافات الأولية يوم الاحد .\nلكل من يرغب في خوض غمار دورة تكوينية في الاسعافات الاولية.\nلكل من يرغب في تنمية مهاراته في الاسعافات الاولية .\nلكل من يريد تحديث او تتميم معلوماته الإسعافية.\nلكل باحث عن شواهد دورات تدريبيه في الاسعافات الاولية لتقوية سيرته الذاتيه.\nلكل من يرغب في تنمية قدراته المعرفية.\nلكل من يهتم بانقاذ نفسه و الاخرين .\nلكل من يريد التغلب عن الخوف و الارتباك أثناء عملية الإسعاف.\nلكل المكونات و الفئات المجتمعية .\nدورة غنية بالمحاور و تطبيقية 100%.\nطرق مبسطة و اساليب حديثة .\nيستفيد المشارك من شهادتين معتمدتين في الاسعافات الاولية و بطاقة المسعف وكتاب خاص يحتوي على المادة العلمية المعتمدة في الدورة و متابعة لمدة 14يوما (وات ساب) لتمكينه من مراجعة و تثبيت كل ما تعلمه من تقنيات الإسعاف و ربطها بالتعليل العلمي.\nالشروط :\nالسن 16 فما فوق.\nالمستوى الدراسي غير مطلوب .\nصورة بطاقة التعريف الوطنية.\nصورة شمسية.\nثمن المشاركة في الدورة.\nللاستفسار و للمزيد من المعلومات المرجو زيارتنا في العنوان التالي:\nمؤسسة جاه تجزئة الحسنى 2 قرب مسجد المحسنين محاميد مراكش."
     },
     {
-      "id": 2,
-      "titreArabe": "اللغة الفرنسية للأعمال",
-      "titreFrancais": "Français des Affaires",
-      "description": "Formation intensive en français professionnel pour les cadres et professionnels",
-      "duree": "60 heures",
-      "niveau": "Intermédiaire à Avancé",
-      "certification": "Certificat de Compétence en Français des Affaires",
-      "contenu": [
-        "Communication professionnelle",
-        "Rédaction de documents d'entreprise",
-        "Présentations et réunions",
-        "Négociation commerciale",
-        "Vocabulaire sectoriel",
-        "Grammaire avancée",
-        "Culture d'entreprise française"
-      ]
+      "id":2,
+      "image":  "https://www.jahinformatique.com/pic/media/media4.jpg",
+      "title": "Presse et Média",
+      "title_ar": "الصحافة والاعلام",
+      "description": "مؤسسة جاه للتكوين المهني الخاص قسم الصحافة وحقيبة المختصر المفيد في مجال الصحافة والإعلام عبر التخصصات التالية :\nتكوين محررين\nمعلقيين رياضيين\nمقدم اخبار وبرامج\nالتصوير والمنتاج\nالصحافة الإلكترونية\nمدة التكوين 10 أشهر عبر المنصة الرقمية Microsoft Teams الخاصة بالمؤسسة كون طلبتنا من مختلف المدن .\nتتتبع يومي عبر الواتساب\nيصلكم عبر البريد الإلكتروني والواتساب 4 دروس وتمرين كل شهر\nحصة مباشرة كل جمعة على الساعة 20h عبر المنصة الرقمية Microsoft Teams\nنهاية السنة بحث وحفل التخرج بحضور صحفيين متميزين لتقييم أداء الخريجيين\nمؤسسة جاه لها تميز خاص مثمثل في فتح المجال أمام طلبتها لتدريب مجاني بجرائد أو اذاعات حسب تخصص الطالب\nملاحظة : ليس هناك اي شرط في السن او المستوى بقدرما هو التكوين يخص أصحاب المواهب لتصحيح المفاهيم\nللاستفسار و للمزيد من المعلومات المرجو زيارتنا في العنوان التالي:\nمؤسسة جاه تجزئة الحسنى 2 قرب مسجد المحسنين محاميد مراكش."
     },
     {
-      "id": 3,
-      "titreArabe": "إدارة المشاريع",
-      "titreFrancais": "Gestion de Projet",
-      "description": "Formation aux méthodologies et outils de gestion de projet",
-      "duree": "40 heures",
-      "niveau": "Intermédiaire",
-      "certification": "Certificat en Gestion de Projet",
-      "contenu": [
-        "Initiation et planification",
-        "Exécution et suivi",
-        "Gestion des risques",
-        "Gestion des ressources",
-        "Communication projet",
-        "Outils de planification",
-        "Clôture et évaluation"
-      ]
+      "id":3,
+      "image": "https://www.jahinformatique.com/pic/Engins/engines3.jpg",
+      "title": "Engins de Chantiers",
+      "title_ar": "الات الحفر والشحن والرافعات الشوكية",
+      "description": "مؤسسة جاه للتكوين المهني الخاص قسم الات الحفر والشحن والرافعات الشوكية :\nالتكوين فيه 12 ساعة\nالنظري : السلامة المهنية\nالتطبيقي : مكونات الالة وكيفية التعامل معها والسياقة\nتحصل على الشهادة ورخصة السياقة ومتابعة دائمة في الواتساب\nالاثمنة :\nJCB 1200dh\nManitou 1200 dh\nChargeur 1200dh\nClark 1200dh\nPoclain 1250dh\nNiveleuse 2000dh\nGrue 2000dh\nللاستفسار و للمزيد من المعلومات المرجو زيارتنا في العنوان التالي:\nمؤسسة جاه تجزئة الحسنى 2 قرب مسجد المحسنين محاميد مراكش."
     },
     {
-      "id": 4,
-      "titreArabe": "التسويق الرقمي",
-      "titreFrancais": "Marketing Digital",
-      "description": "Formation aux stratégies et outils du marketing digital",
-      "duree": "50 heures",
-      "niveau": "Tous niveaux",
-      "certification": "Certificat en Marketing Digital",
-      "contenu": [
-        "Stratégie de contenu",
-        "Réseaux sociaux",
-        "SEO et SEM",
-        "Email marketing",
-        "Analyse de données",
-        "Publicité en ligne",
-        "E-commerce"
-      ]
+      "id":4,
+      "image":  "https://www.jahinformatique.com/pic/sport/sport1.jpg",
+      "title": "Professeurs de l'Education Physique et Sportive (EPS)",
+      "title_ar": "تكوين اساتذة التربية البدنية",
+      "description": "لديك طموح بان تصبح استاذ التربية البدنية او معد بدني مؤسسة جاه مراكش تقترح عليكم :\nتكوين اساتذة التربية البدنية والرياضة وكذلك التحضير لاجتياز امتحانات اساتذة التربية البدنية والرياضة واطر الاكاديمية لمعرفة علوم التربية والعلوم البيداغوجية والعلوم الديداكتيكية والتكنولوجيا الرياضية و العلوم الفزيولوجية والتشريحية المرتبطة بالرياضة .\nتكوين احترافي للمعدين البدنيين والفتنيس لكل من يرغب في تكوين احترافي في الفتنيس وكمال الاجسام وجميع انواع الكارديو وكيفية ازالة الدهون وضبط التدريب بطرق علمية حديثة ستبهرك وتكتشف بانك كنت تمارس هذه الرياضة بطرق عشوائية .\nسارع لتصحيح محتواك العلمي في مجال التدريب\nدروس حضورية مع امكانية الدروس عن بعد\nللاستفسار و للمزيد من المعلومات المرجو زيارتنا في العنوان التالي:\nمؤسسة جاه تجزئة الحسنى 2 قرب مسجد المحسنين محاميد مراكش."
     },
     {
-      "id": 5,
-      "titreArabe": "الصحافة والاعلام",
-      "titreFrancais": "Journalisme et Communication",
-      "description": "مؤسسة جاه للتكوين المهني الخاص قسم الصحافة وحقيبة المختصر المفيد في مجال الصحافة والإعلام عبر التخصصات التالية : ",
-      "duree": "50 heures",
-      "niveau": "Tous niveaux",
-      "certification": "Certificat en Journalisme et Communication",
-      "contenu": [
-        " تكوين محررين",
-        "معلقيين رياضيين",
-        " مقدم اخبار وبرامج",
-        " التصوير والمنتاج",
-        "الصحافة الإلكترونية"
-      ],
-      "contenuDetaille": [
-        "مدة التكوين 10 أشهر عبر المنصة الرقميةالخاصة  ",
-        "  تتتبع يومي عبر الواتساب",
-        "  يصلكم عبر البريد الإلكتروني والواتساب 4 دروس وتمرين كل شهر",
-        ""
-      ]
+      "id":5,
+      "image":  "https://www.jahinformatique.com/pic/Modeliste/modelisme01.jpg",
+      "title": "Modéliste et Styliste",
+      "title_ar": "مجال الازياء الفصالة والخياطة",
+      "description": "مؤسسة جاه للتكوين المهني الخاص قسم مجال الازياء الفصالة والخياطة :\nمزايا البرنامج :\nتكوين نظري و تطبيقي\nشهادة مهنية الفصالة تصميم الأزياء\nأبواب التسجيل مفتوحة لجميع الأعمار ولجميع المستويات\nمدة التكوين 8 أشهر\nالبرنامج :\nالتصميم\nتنسيق الالوان / التعريف بالاثواب / علاقة الألوان بالإنسان / رسم المانيكان\nالأزياء التقليدية\nقفطان عادي / قفطان افازي / قفطان كلوش / جلابة عادية / جلابة افازي / فرشات\nجلابة كلوش /جلابة جبلية / جلابة مخزنية / تكشيطة /سروال قندريسي / سلهام\nالازياء العصرية\nJupe droit / Jupe évasée /Jupe cloche / Pantalon avec astique\nPantalon tailleur / Pantalon Algérie / Pinoir simple / Pinoir croisière\nCol châle (avec capetcho) / Chemise simple (Avec les boutons)\nLes robes de chambres / Les robes soirées /Survette\nالأزياء التركية / العبايات الخليجية\nوختاما حفل تخرج (نوفر لكم لباس التخرج).\nسارعوا بالتسجيل الأماكن محدودة\nللاستفسار و للمزيد من المعلومات المرجو زيارتنا في العنوان التالي:\nمؤسسة جاه تجزئة الحسنى 2 قرب مسجد المحسنين محاميد مراكش.\nرقم المؤطر : 0661808153"
+    },
+    {
+      "id":6,
+      "image":  "https://www.jahinformatique.com/pic/P%C3%A2tisserie/Patisserie.jpg",
+      "title": "Pâtisserie Confiserie et Chocolaterie",
+      "title_ar": "الحلويات",
+      "description": "مؤسسة جاه للتكوين المهني الخاص قسم مجال الحلويات :\nنقترح عليكم تكوين مستمر في صنع مختلف الحلويات و المعجنات , يهدف هذا التكوين إلى الحصول على مهارات في صنع الحلويات والمعجنات المغربية والفرنسية .\nالبرنامج :\nمعرفة كيفية استخدام المواد الأولية و المعدات الخاصة لإعداد مختلف أنواع الحلويات\nالتعرف على الوصفات وتقنيات ومهارات العمل.\nإنجاز وتقديم الحلويات : إبداع وإنجاز منتوجات من العجائن المختمرة والرقائق والفطائر.\nإتمام و زخرفة الحلويات.\nللاستفسار و للمزيد من المعلومات المرجو زيارتنا في العنوان التالي:\nمؤسسة جاه تجزئة الحسنى 2 قرب مسجد المحسنين محاميد مراكش."
+    },
+    {
+      "id":7,
+      "image": "https://www.jahinformatique.com/pic/hijama/hijama2.jpg",
+      "title": "الحجامة العصرية والعلاج الناري",
+      "description": "مؤسسة جاه JAH مراكش و الأكاديمية الحرة ميكا فور Mega For يقدمان لكم دورة تكوينية في الحجامة العصرية و العلاج الناري :\nالحجامة من العلاجات الشعبية المتوارثة ذات التاريخ العريق و التي عرفت تطورا كبيرا لا من ناحية البحث العلمي أو الأدوات المستعملة أو نوع الممارسين.\nو نحن بدورنا نقدم لكم دورة تكوينية متكاملة إخترنا فيها أهم العناصر العلمية و البيداغوجية التي تجعل من الممارسين للحجامة نوعية جيدة بعيدة عن العشوائية و التطفل، تليق بتطلعات الزبائن الراغبين في التداوي بها.\nاذا كنت ممارسا ترغب في صقل معلوماتك أو حصولك على شواهد، أو مبتدأ ترغب بالتعلم فنحن ننقل لك خبرة تناهز العشرين سنة من الممارسة المستمرة على يد الاستاذ و المعالج المخضرم عبد اللطيف خطوا. فمرحبا بكل المهتمين :\nذكورا و إناثا\n20 سنة فما فوق\nالمستوى الدراسي (قراءة و كتابة)\nشروط التسجيل:\nصورة بطاقة التعريف\nصورة شمسية حديثة\nثمن المشاركة في الدورة\nيستفيد المشارك من :\nكتاب (مطبوع) للمادة العلمية للدورة\nالتكوين و التأطير\nشهادتين في الحجامة العصرية و العلاج الناري\nمتابعة و تواصل عبر الواتساب لمدة شهرين\nللاستفسار و للمزيد من المعلومات المرجو زيارتنا في العنوان التالي:\nمؤسسة جاه تجزئة الحسنى 2 قرب مسجد المحسنين محاميد مراكش."
     }
   ],
+  
 "formations":
   [
     {
@@ -277,6 +232,11 @@
     },
     {
       "id": 4,
+      "titre": "Cours Supplémentaires dans toutes les matières",
+      "description": "Math, Physique, Science"
+    },
+    {
+      "id": 5,
       "titre": "Cours Supplémentaires dans toutes les matières",
       "description": "Math, Physique, Science"
     }
