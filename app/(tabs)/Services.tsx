@@ -15,9 +15,15 @@ const ServicesScreen: React.FC = () => {
   const HandleFormationsPro = () => {
     router.push('/Formations Professionel');
   };
+  const HandleDeplomePro = () => {
+    router.push('/Diplôms Professionnelle');
+  };
+  const HandleDeplomeEurop = () => {
+    router.push('/Diplôms Européenne');
+  };
 
   return (
-    <ScrollView contentContainerStyle={styles.container}>
+    <ScrollView showsVerticalScrollIndicator={false}  contentContainerStyle={styles.container}>
       <SectionTitle title="Nos Formations" />
       {/* Carte pour Formations Qualifiantes */}
       <CardServices
@@ -30,6 +36,18 @@ const ServicesScreen: React.FC = () => {
         title="Formations Professionnelles"
         image={require('@/assets/images/formationPro.png')}
         onPress={() => HandleFormationsPro()} // Route pour Formations Professionnelles
+      />
+      <SectionTitle title="Nos Diplôms" />
+      <CardServices
+        title=" Diplôme de la Formation Professionnelle Accrédité par l'Etat"
+        image={require('@/assets/images/ImageD.png')}
+        onPress={() => HandleDeplomePro()} 
+        />
+
+      <CardServices
+        title=" Diplôme de la Fédération Européenne des Ecoles FEDE s"
+        image={require('@/assets/images/jahimage.png')}
+        onPress={() => HandleDeplomeEurop()} 
       />
     </ScrollView>
   );
