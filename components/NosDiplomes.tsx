@@ -20,9 +20,9 @@ export default function NosDiplomes(): JSX.Element {
     setDiplomes(formationData.diplomes);
   }, []);
 
-  const navigateToFormation = (id: string): void => {
-    router.replace(`/formation/${id}`);
-  };
+  // const navigateToFormation = (id: string): void => {
+  //   router.replace(`/formation/${id}`);
+  // };
 
   return (
     <View style={styles.container}>
@@ -33,9 +33,9 @@ export default function NosDiplomes(): JSX.Element {
             styles.diplomeCard,
             hoveredCard === diplome.id && styles.diplomeCardHover
           ]}
-          onPress={() => navigateToFormation(diplome.id)}
-          onPressIn={() => setHoveredCard(diplome.id)}
-          onPressOut={() => setHoveredCard(null)}
+          // onPress={() => navigateToFormation(diplome.id)}
+          // onPressIn={() => setHoveredCard(diplome.id)}
+          // onPressOut={() => setHoveredCard(null)}
         >
           <Ionicons
             name={diplome.icone as any}
