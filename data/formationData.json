@@ -243,7 +243,7 @@
   ],
   "diplomesProfessionnelle": [
     {
-      "image":  "https://www.jahinformatique.com/pic/P%C3%A2tisserie/Patisserie.jpg",
+      "image":  "https://www.jahinformatique.com/images/diplome/TS.png",
       "titre": "Technicien Spécialisé en Gestion d’Entreprise",
       "bourse": "Possibilité d'avoir de la Bourse jusqu'à 4000dh",
       "competences_visees": "Former des techniciens spécialisés en gestion d’entreprise au sein des PME. Peut occuper les postes de gérant, responsable administratif, gérer la comptabilité, commerce, production, ressources humaines et créer sa propre entreprise.",
@@ -297,7 +297,7 @@
       }
     },
     {
-      "image":  "https://www.jahinformatique.com/pic/P%C3%A2tisserie/Patisserie.jpg",
+      "image":  "https://www.jahinformatique.com/images/diplome/T.jpg",
       "titre": "Technicien en Gestion Informatisée",
       "reconnu_par_letat": true,
       "competences_visees": "Former des techniciens en gestion informatisée capables d’utiliser ou développer des applications de gestion, manipuler des bases de données, et utiliser les systèmes d’information.",
@@ -367,7 +367,7 @@
       }
     },
     {
-      "image":  "https://www.jahinformatique.com/pic/P%C3%A2tisserie/Patisserie.jpg",
+      "image":  "https://www.jahinformatique.com/images/diplome/Q.jpg",
       "titre": "Qualification Opérateur De Saisie",
       "reconnu_par_letat": true,
       "competences_visees": "Former des opérateurs de saisie maîtrisant la saisie de données, les logiciels bureautiques et les bases de la gestion.",
