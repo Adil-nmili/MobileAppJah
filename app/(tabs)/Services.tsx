@@ -27,7 +27,7 @@ const ServicesScreen: React.FC = () => {
       }
     };
     router.push({
-      pathname: '/diplomeDetail',
+      pathname: '/DiplomsProfessionnelle',
       params: { diplome: JSON.stringify(diplomeData) }
     });
   };
