@@ -240,6 +240,183 @@
       "titre": "Cours Supplémentaires dans toutes les matières",
       "description": "Math, Physique, Science"
     }
+  ],
+  "diplomesProfessionnelle": [
+    {
+      "image":  "https://www.jahinformatique.com/pic/P%C3%A2tisserie/Patisserie.jpg",
+      "titre": "Technicien Spécialisé en Gestion d’Entreprise",
+      "bourse": "Possibilité d'avoir de la Bourse jusqu'à 4000dh",
+      "competences_visees": "Former des techniciens spécialisés en gestion d’entreprise au sein des PME. Peut occuper les postes de gérant, responsable administratif, gérer la comptabilité, commerce, production, ressources humaines et créer sa propre entreprise.",
+      "modules": {
+        "1ère Année": [
+          "U.F.101 : Mathématiques financières et statistiques",
+          "U.F.102 : Economie générale",
+          "U.F.103 : Organisation d’entreprise",
+          "U.F.104 : Comptabilité générale",
+          "U.F.105 : Techniques de vente",
+          "U.F.106 : Management et gestion des ressources humaines",
+          "U.F.107 : Système d’information et de communication",
+          "U.F.108 : Application informatique et bureautique",
+          "U.F.109 : Droit civil & législation",
+          "U.F.110 : Techniques de communication et d’expression",
+          "U.F.111 : Langue Anglaise"
+        ],
+        "2ème Année": [
+          "U.F.201 : Notions en gestion des approvisionnements et des stocks",
+          "U.F.202 : Comptabilité budgétaire et des sociétés",
+          "U.F.203 : Finance et fiscalité",
+          "U.F.204 : Comptabilité analytique",
+          "U.F.205 : Internet",
+          "U.F.206 : Technique de recherche d’emploi",
+          "U.F.207 : Techniques de communication et d’expression",
+          "U.F.208 : Langues Anglais",
+          "U.F.209 : Stages et projets"
+        ]
+      },
+      "condition_acces": "Bac (toute série) ou un diplôme de technicien",
+      "effectif": 20,
+      "metiers": [
+        "Chef de projet",
+        "Responsable de gestion commerciale",
+        "Gestionnaire",
+        "Comptable",
+        "Responsable assistant administratif"
+      ],
+      "pieces_a_fournir": [
+        "03 Photocopies de BAC légalisées",
+        "03 Extraits d'acte de naissance",
+        "03 Photocopies de la CIN légalisées",
+        "03 Photos d'identité",
+        "03 Enveloppes timbrées"
+      ],
+      "contacts": {
+        "responsable": "Prof Jamal NOUITI",
+        "email": "jah.informatique@gmail.com",
+        "telephone": "05 24 37 16 19 / 06 61 72 98 87",
+        "whatsapp": "https://wa.me/212661729887"
+      }
+    },
+    {
+      "image":  "https://www.jahinformatique.com/pic/P%C3%A2tisserie/Patisserie.jpg",
+      "titre": "Technicien en Gestion Informatisée",
+      "reconnu_par_letat": true,
+      "competences_visees": "Former des techniciens en gestion informatisée capables d’utiliser ou développer des applications de gestion, manipuler des bases de données, et utiliser les systèmes d’information.",
+      "modules": {
+        "1ère Année": [
+          "UF 101 : Notions Mathématiques",
+          "UF 102 : Algorithme de Programmation",
+          "UF 103 : Programmation Informatique",
+          "UF 104 : Architecture des Ordinateurs",
+          "UF 105 : Systèmes d'Exploitation",
+          "UF 106 : Bureautique",
+          "UF 107 : Gestion Commerciale",
+          "UF 108 : Organisation d'Entreprise",
+          "UF 109 : Statistiques Appliquées",
+          "UF 110 : Comptabilité Générale",
+          "UF 110.0 : Comptabilité sur Ordinateur",
+          "UF 111 : Communication en Français",
+          "UF 112 : Communication en Anglais",
+          "UF 113 : Stage En Entreprise"
+        ],
+        "2ème Année": [
+          "UF 201 : Analyse de Système d'Information",
+          "UF 202 : Réseaux Informatiques",
+          "UF 203 : Bases de Données (ACCESS)",
+          "UF 204 : Internet",
+          "UF 205 : Visual Basic (VB)",
+          "UF 206 : Gestion de la Production",
+          "UF 207 : Gestion des Approvisionnements",
+          "UF 208 : Gestion Financière",
+          "UF 209 : Qualité Logiciels",
+          "UF 210 : Organisation d'Entreprise",
+          "UF 211 : Comptabilité Analytique",
+          "UF 212 : Droit Informatique",
+          "UF 213 : Droit Social",
+          "UF 214 : Droit des Affaires",
+          "UF 215 : Communication en Français",
+          "UF 216 : Communication en arabe",
+          "UF 217 : Communication en Anglais",
+          "UF 218 : Stage En Entreprise"
+        ]
+      },
+      "condition_acces": "Niveau Bac ou un diplôme de Qualification",
+      "effectif": 40,
+      "metiers": [
+        "Développeur des applications",
+        "Technicien d’assistance informatique",
+        "Technicien en maintenance et des réseaux informatiques",
+        "Technicien en secrétariat",
+        "Chef de projet",
+        "Responsable de gestion commerciale",
+        "Gestionnaire",
+        "Comptable",
+        "Responsable assistant administratif"
+      ],
+      "pieces_a_fournir": [
+        "03 Certificats de scolarités",
+        "03 Extraits d'acte de naissance",
+        "03 Photocopies de la CIN légalisées",
+        "03 Photos d'identité",
+        "03 Enveloppes timbrées"
+      ],
+      "contacts": {
+        "responsable": "Prof Jamal NOUITI",
+        "email": "jah.informatique@gmail.com",
+        "telephone": "05 24 37 16 19 / 06 61 72 98 87",
+        "whatsapp": "https://wa.me/212661729887"
+      }
+    },
+    {
+      "image":  "https://www.jahinformatique.com/pic/P%C3%A2tisserie/Patisserie.jpg",
+      "titre": "Qualification Opérateur De Saisie",
+      "reconnu_par_letat": true,
+      "competences_visees": "Former des opérateurs de saisie maîtrisant la saisie de données, les logiciels bureautiques et les bases de la gestion.",
+      "modules": {
+        "1ère Année": [
+          "UF 101 : Structure et Fonctionnement des Ordinateurs",
+          "UF 102 : Logiciel Microsoft Word",
+          "UF 103 : Microsoft Excel",
+          "UF 104 : Access",
+          "UF 105 : Outils PAO (Power Point)",
+          "UF 106 : Comptabilité Générale et Comptabilité sur Ordinateur",
+          "UF 107 : Internet",
+          "UF 108 : Maths / Statistiques",
+          "UF 109 : Saisie et Dactylographie",
+          "UF 110 : Applications Informatiques",
+          "UF 111 : Organisation & Vie de l'Entreprise",
+          "UF 112 : Commerce / Gestion",
+          "UF 113 : Législation de Travail",
+          "UF 114 : Techniques de Recherche d'Emploi",
+          "UF 115 : Techniques de Communication & d'Expression",
+          "UF 116: Langues : Anglais",
+          "UF 117 : Stages & Projets"
+        ]
+      },
+      "condition_acces": "9AEF ou plus",
+      "effectif": 20,
+      "metiers": [
+        "Assistant informatique",
+        "Assistant en maintenance et des réseaux informatiques",
+        "Secrétariat",
+        "Responsable de gestion commerciale",
+        "Opérateur de saisie",
+        "Aide comptable",
+        "Assistant administratif"
+      ],
+      "pieces_a_fournir": [
+        "03 Certificats de scolarités",
+        "03 Extraits d'acte de naissance",
+        "03 Photocopies de la CIN légalisées",
+        "03 Photos d'identité",
+        "03 Enveloppes timbrées"
+      ],
+      "contacts": {
+        "responsable": "Prof Jamal NOUITI",
+        "email": "jah.informatique@gmail.com",
+        "telephone": "05 24 37 16 19 / 06 61 72 98 87",
+        "whatsapp": "https://wa.me/212661729887"
+      }
+    }
   ]
   
 }

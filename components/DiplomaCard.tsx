@@ -1,106 +1,48 @@
-import React from 'react';
-import { View, Text, Image, TouchableOpacity, StyleSheet } from 'react-native';
+// import React from 'react';
+import { TouchableOpacity, Text, StyleSheet, View, Image, GestureResponderEvent } from 'react-native';
 
-type DiplomaCardProps = {
-  category: string;
+interface DiplomaCardProps {
   title: string;
-  subtitle?: string;
   image: any;
-};
+  onPress: (event: GestureResponderEvent) => void;
+}
 
-const DiplomaCard: React.FC<DiplomaCardProps> = ({ category, title, subtitle, image }) => {
+const DiplomaCard: React.FC<DiplomaCardProps> = ({ title, image, onPress }) => {
   return (
-    <View style={styles.card}>
-      <View style={styles.category}>
-        <Text style={styles.categoryText}>{category}</Text>
-      </View>
-      <Image source={image} style={styles.image} resizeMode="cover" />
-      <View style={styles.content}>
+    <TouchableOpacity style={styles.card} onPress={onPress} activeOpacity={0.8}>
+      <Image source={image} style={styles.image} />
+      <View style={styles.overlay}>
         <Text style={styles.title}>{title}</Text>
-        {subtitle && <Text style={styles.subtitle}>{subtitle}</Text>}
-        <TouchableOpacity style={styles.button}>
-          <Text style={styles.buttonText}>En Savoir Plus</Text>
-        </TouchableOpacity>
-        <View style={styles.footer}>
-          <Text style={styles.footerText}>Diplôme Reconnu Par L'État</Text>
-          <Image
-            source={require('../assets/state-recognized-badge.png')}
-            style={styles.badge}
-          />
-        </View>
       </View>
-    </View>
+    </TouchableOpacity>
   );
 };
 
+export default DiplomaCard;
+
 const styles = StyleSheet.create({
   card: {
-    borderWidth: 1,
-    borderColor: '#28a745',
-    borderRadius: 10,
+    width: '100%',
+    height: 200,
+    borderRadius: 16,
     overflow: 'hidden',
-    backgroundColor: '#fff',
-    flex: 1,
-    margin: 8,
-    elevation: 2,
-  },
-  category: {
-    position: 'absolute',
-    top: 0,
-    left: 0,
-    backgroundColor: '#f0f0f0',
-    paddingHorizontal: 8,
-    paddingVertical: 4,
-    zIndex: 1,
-  },
-  categoryText: {
-    fontSize: 12,
-    fontWeight: '600',
+    marginBottom: 20,
+    elevation: 4,
   },
   image: {
     width: '100%',
-    height: 120,
+    height: '100%',
   },
-  content: {
-    padding: 10,
+  overlay: {
+    position: 'absolute',
+    bottom: 0,
+    backgroundColor: 'rgba(0,0,0,0.5)',
+    width: '100%',
+    padding: 16,
   },
   title: {
+    color: '#fff',
+    fontSize: 20,
     fontWeight: 'bold',
-    color: '#083885',
-    fontSize: 14,
-  },
-  subtitle: {
-    fontSize: 12,
-    color: '#444',
-    marginVertical: 4,
-  },
-  button: {
-    borderWidth: 1,
-    borderColor: '#28a745',
-    borderRadius: 5,
-    paddingVertical: 6,
-    alignItems: 'center',
-    marginTop: 6,
-  },
-  buttonText: {
-    color: '#28a745',
-    fontWeight: '600',
-  },
-  footer: {
-    marginTop: 10,
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-  },
-  footerText: {
-    fontSize: 11,
-    color: '#333',
-    flex: 1,
-  },
-  badge: {
-    width: 30,
-    height: 30,
   },
 });
-
-export default DiplomaCard;

@@ -3,6 +3,7 @@ import { ScrollView, StyleSheet } from 'react-native';
 import CardServices from '@/components/CardServices';
 import SectionTitle from '@/components/SectionTitle';
 import { useRouter } from 'expo-router';
+import DiplomaCard from '@/components/DiplomaCard';
 
 // import FormationsQ form '@/components/FormationsQ';
 const ServicesScreen: React.FC = () => {
@@ -16,11 +17,11 @@ const ServicesScreen: React.FC = () => {
     router.push('/Formations Professionel');
   };
   const HandleDeplomePro = () => {
-    router.push('/Diplôms Professionnelle');
+    router.push('/DiplomsProfessionnelle');
   };
-  const HandleDeplomeEurop = () => {
-    router.push('/Diplôms Européenne');
-  };
+  // const HandleDeplomeEurop = () => {
+  //   router.push('/Diplôms Européenne');
+  // };
 
   return (
     <ScrollView showsVerticalScrollIndicator={false}  contentContainerStyle={styles.container}>
@@ -38,16 +39,10 @@ const ServicesScreen: React.FC = () => {
         onPress={() => HandleFormationsPro()} // Route pour Formations Professionnelles
       />
       <SectionTitle title="Nos Diplôms" />
-      <CardServices
-        title=" Diplôme de la Formation Professionnelle Accrédité par l'Etat"
-        image={require('@/assets/images/ImageD.png')}
-        onPress={() => HandleDeplomePro()} 
-        />
-
-      <CardServices
-        title=" Diplôme de la Fédération Européenne des Ecoles FEDE s"
-        image={require('@/assets/images/jahimage.png')}
-        onPress={() => HandleDeplomeEurop()} 
+      <DiplomaCard
+      title="Diplôme de la Formation Professionnelle Accrédité par l'Etat"
+      image={require('@/assets/images/diplome.png')}
+      onPress={()=>HandleDeplomePro()}
       />
     </ScrollView>
   );
