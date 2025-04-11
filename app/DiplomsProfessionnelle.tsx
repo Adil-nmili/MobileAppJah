@@ -2,9 +2,22 @@
 
 import React from 'react';
 import { View, Text, FlatList, Image, TouchableOpacity, StyleSheet } from 'react-native';
-import diplomesProfessionnelle from '../data/formationData.json';
+import diplomesProfessionnelle from '@/data/formationData.json';
+import * as Animatable from 'react-native-animatable';
+import { useRouter } from 'expo-router';
 
 const DiplomePro = () => {
+  const router = useRouter();
+  const diplomes = diplomesProfessionnelle.diplomesProfessionnelle;
+  
+  const handlePress = (diplome: any) => {
+    router.push({
+      pathname: '/diplomeDetail',
+      params: {
+        diplome: JSON.stringify(diplome),
+      },
+    });
+  };
   return (
  
     <View style={styles.container}>
@@ -13,22 +26,26 @@ const DiplomePro = () => {
         Découvrez nos formations accréditées par l'État marocain. Chaque parcours est conçu pour offrir une
         expertise concrète et adaptée au marché du travail.
       </Text>
-
       <FlatList
-        data={diplomesProfessionnelle}
-        keyExtractor={(item) => item.id.toString()}
-        renderItem={({ item }) => (
-          <View style={styles.card}>
-             <Image source={{ uri: item.image }} style={styles.image} resizeMode="cover" />
-            <Text style={styles.title}>{item.title}</Text>
-            <Text style={styles.category}>{item.category}</Text>
-            <TouchableOpacity style={styles.button}>
-              <Text style={styles.buttonText}>En savoir plus</Text>
-            </TouchableOpacity>
-          </View>
-        )}
-        contentContainerStyle={styles.cardContainer}
-      />
+            data={diplomes}
+            
+            renderItem={({ item, index }) => (
+              <Animatable.View
+                animation="fadeInUp"
+                delay={index * 150}
+                duration={600}
+                useNativeDriver
+              >
+                <TouchableOpacity style={styles.card} onPress={() => handlePress(item)}>
+                  <Image source={{ uri: item.image }} style={styles.image} />
+                  <Text style={styles.title}>{item.titre}</Text>
+                  <Text style={styles.description} numberOfLines={2}>
+                    {item.competences_visees}
+                  </Text>
+                </TouchableOpacity>
+              </Animatable.View>
+            )}
+                 />
     </View>
   );
 };

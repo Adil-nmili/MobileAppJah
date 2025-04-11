@@ -11,13 +11,25 @@ const ServicesScreen: React.FC = () => {
 
   // Fonction pour gérer la navigation lors du clic sur les cartes
   const HandleFormationsQ = () => {
-    router.push('/Formations Qualifiant');
+    router.push('/formationsQualifiant');
   };
   const HandleFormationsPro = () => {
-    router.push('/Formations Professionel');
+    router.push('/formationsProfessionel');
   };
   const HandleDeplomePro = () => {
-    router.push('/DiplomsProfessionnelle');
+    const diplomeData = {
+      title: "Diplôme de la Formation Professionnelle Accrédité par l'Etat",
+      image: require('@/assets/images/diplome.png'),
+      description: "Description du diplôme...",
+      modules: {
+        "1ère Année": ["Module 1", "Module 2", "Module 3", "Module 4", "Module 5"],
+        "2ème Année": ["Module 6", "Module 7", "Module 8", "Module 9", "Module 10"]
+      }
+    };
+    router.push({
+      pathname: '/diplomeDetail',
+      params: { diplome: JSON.stringify(diplomeData) }
+    });
   };
   // const HandleDeplomeEurop = () => {
   //   router.push('/Diplôms Européenne');

@@ -213,8 +213,7 @@
     }
   ],
   
-"formations":
-  [
+"formations":[
     {
       "id": 1,
       "titre": "Informatique",
@@ -241,8 +240,9 @@
       "description": "Math, Physique, Science"
     }
   ],
-  "diplomesProfessionnelle": [
+"diplomesProfessionnelle": [
     {
+      "id": 1,
       "image":  "https://www.jahinformatique.com/images/diplome/TS.png",
       "titre": "Technicien Spécialisé en Gestion d’Entreprise",
       "bourse": "Possibilité d'avoir de la Bourse jusqu'à 4000dh",
@@ -297,6 +297,7 @@
       }
     },
     {
+      "id": 2,
       "image":  "https://www.jahinformatique.com/images/diplome/T.jpg",
       "titre": "Technicien en Gestion Informatisée",
       "reconnu_par_letat": true,
@@ -367,6 +368,7 @@
       }
     },
     {
+      "id": 3,
       "image":  "https://www.jahinformatique.com/images/diplome/Q.jpg",
       "titre": "Qualification Opérateur De Saisie",
       "reconnu_par_letat": true,
@@ -418,5 +420,4 @@
       }
     }
   ]
-  
 }
