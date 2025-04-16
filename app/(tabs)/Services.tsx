@@ -31,9 +31,9 @@ const ServicesScreen: React.FC = () => {
       params: { diplome: JSON.stringify(diplomeData) }
     });
   };
-  // const HandleDeplomeEurop = () => {
-  //   router.push('/Diplôms Européenne');
-  // };
+  const HandleDeplomeEurop = () => {
+    router.push('/DiplomsEuropeenne');
+  };
 
   return (
     <ScrollView showsVerticalScrollIndicator={false}  contentContainerStyle={styles.container}>
@@ -55,6 +55,12 @@ const ServicesScreen: React.FC = () => {
       title="Diplôme de la Formation Professionnelle Accrédité par l'Etat"
       image={require('@/assets/images/diplome.png')}
       onPress={()=>HandleDeplomePro()}
+      />
+      
+      <DiplomaCard
+      title=" Diplôme de la Fédération Européenne des Ecoles FEDE "
+      image={require('@/assets/images/fede.png')}
+      onPress={()=>HandleDeplomeEurop()}
       />
     </ScrollView>
   );

@@ -288,13 +288,7 @@
         "03 Photocopies de la CIN légalisées",
         "03 Photos d'identité",
         "03 Enveloppes timbrées"
-      ],
-      "contacts": {
-        "responsable": "Prof Jamal NOUITI",
-        "email": "jah.informatique@gmail.com",
-        "telephone": "05 24 37 16 19 / 06 61 72 98 87",
-        "whatsapp": "https://wa.me/212661729887"
-      }
+      ] 
     },
     {
       "id": 2,
@@ -359,13 +353,7 @@
         "03 Photocopies de la CIN légalisées",
         "03 Photos d'identité",
         "03 Enveloppes timbrées"
-      ],
-      "contacts": {
-        "responsable": "Prof Jamal NOUITI",
-        "email": "jah.informatique@gmail.com",
-        "telephone": "05 24 37 16 19 / 06 61 72 98 87",
-        "whatsapp": "https://wa.me/212661729887"
-      }
+      ]
     },
     {
       "id": 3,
@@ -411,13 +399,585 @@
         "03 Photocopies de la CIN légalisées",
         "03 Photos d'identité",
         "03 Enveloppes timbrées"
-      ],
-      "contacts": {
-        "responsable": "Prof Jamal NOUITI",
-        "email": "jah.informatique@gmail.com",
-        "telephone": "05 24 37 16 19 / 06 61 72 98 87",
-        "whatsapp": "https://wa.me/212661729887"
-      }
+      ]
     }
-  ]
+  ],
+  
+
+ "diplomesEurop":[
+  {
+    "id":1,
+    "categorie": "MASTÈRE EUROPÉEN (FEDE)",
+    "image":"https://www.jahinformatique.com/images/masterpro.jpg",
+    "diplomes": [
+      {
+      "id":1,
+        "titre": "MEI : Master Européen d'Informatique",
+        "competences_visees": [
+          "Configurer des équipements d’interconnexion, analyser et diagnostiquer des incidents.",
+          "Implémenter les stratégies de sécurité.",
+          "Utiliser des modules du langage UML, utiliser des langages objet.",
+          "Étudier les failles de sécurité d’un système d’exploitation.",
+          "Maîtriser les architectures matérielles et logicielles des systèmes distribués.",
+          "Être capable d’auditer, de collecter les informations et d’analyser les besoins.",
+          "Savoir élaborer un cahier des charges et analyser les coûts et risques inhérents à un projet."
+        ],
+        "modules": [
+          "Administration des réseaux",
+          "Sécurité des systèmes d’information",
+          "Administration des systèmes d’exploitation",
+          "Routeurs et interconnexions réseaux",
+          "Programmation avancée",
+          "Réaliser de cahiers de charges",
+          "Gestion du parc informatique",
+          "Sécurité des réseaux",
+          "Développement d'applications et de bases de données",
+          "Systèmes distribués",
+          "Systèmes temps réel et embarqués",
+          "Base de données objet"
+        ],
+        "duree": "2 Ans (20 Mois)",
+        "condition_acces": "Licence ou 3 ans des études supérieures",
+        "effectif_prevu": 20,
+        "metiers": [
+          "Responsable sécurité des systèmes d'information",
+          "Chef de projets",
+          "Consultant en systèmes d’information",
+          "Auditeur informatique",
+          "Chef de projet pour le développement d’applications"
+        ],
+        "pieces_a_fournir": [
+          "03 Copies de Diplôme légalisés",
+          "03 Extraits d'acte de naissance",
+          "03 Photocopies de la CIN légalisées",
+          "03 Photos d'identité"
+        ]
+      },
+      {
+        "id":2,
+        "titre": "MECSPCN : Master Européen en Communication - Stratégies Publicitaires et Communication Numérique",
+        "competences_visees": [
+          "Savoir choisir le média correspondant le mieux à la cible",
+          "Définir un plan média",
+          "Établir un média planning",
+          "Savoir élaborer un plan de financement, savoir programmer des investissements publicitaires",
+          "Maîtriser les différentes étapes de la chaîne graphique",
+          "Maîtriser les différents types de communication",
+          "Savoir analyser un contrat électronique",
+          "Être capable de concevoir une stratégie numérique",
+          "Savoir protéger une identité numérique dans le cadre juridique national et européen"
+        ],
+        "modules": [
+          "Marketing",
+          "Publicité",
+          "Production audiovisuelle",
+          "Gestion éditoriale site web",
+          "Stratégie de communication",
+          "Gestion financière des projets",
+          "Communication internet",
+          "Cadre juridique de la communication"
+        ],
+        "duree": "2 Ans (20 Mois)",
+        "condition_acces": "Licence ou 3 ans des études supérieures",
+        "effectif_prevu": 20,
+        "metiers": [
+          "Chef de publicité online",
+          "Chef de projet éditorial",
+          "Chef de projet internet",
+          "Trafic manager",
+          "Advertising manager",
+          "Webplanner",
+          "Responsable éditorial",
+          "Responsable Cross Media"
+        ],
+        "pieces_a_fournir": [
+          "03 Copies de Diplôme légalisés",
+          "03 Extraits d'acte de naissance",
+          "03 Photocopies de la CIN légalisées",
+          "03 Photos d'identité"
+        ]
+      },
+      {
+        "id":3,
+        "titre": "MEMRH : Master Européen en Management des Ressources Humaines",
+        "competences_visees": [
+          "Management des ressources humaines d’une entreprise",
+          "Gestion des processus liés aux ressources humaines",
+          "Aptitude à la conduite de projets, au management et à la prise en compte des facteurs économiques, normatifs et législatifs",
+          "Aptitude à la responsabilité au sein d’organisations",
+          "Mise en place des dispositifs de prévention des conflits",
+          "Gestion des situations conflictuelles avec les syndicats"
+        ],
+        "modules": [
+          "Droit du travail",
+          "Management des Ressources Humaines",
+          "Stratégie RH",
+          "Communication interne",
+          "Administration du personnel et politique de rémunération",
+          "Psychologie du travail et ergonomie",
+          "Formation",
+          "Recrutement"
+        ],
+        "duree": "2 Ans (20 Mois)",
+        "condition_acces": "Licence ou 3 ans des études supérieures",
+        "effectif_prevu": 20,
+        "metiers": [
+          "Responsable formation",
+          "Responsable recrutement",
+          "Chefs de projet",
+          "Consultant RH",
+          "Responsable de développement des ressources humaines"
+        ],
+        "pieces_a_fournir": [
+          "03 Copies de Diplôme légalisés",
+          "03 Extraits d'acte de naissance",
+          "03 Photocopies de la CIN légalisées",
+          "03 Photos d'identité"
+        ]
+      },
+      {
+        "id": 4,
+        "titre": "MEMSE : Master Européen de Logistien Management et Stratégie d'Entreprise.",
+        "competences_visees": [
+          "Maîtriser les techniques de décision stratégiques",
+          "Acquérir un savoir–faire pluridisciplinaire sur les différents champs fonctionnels économiques de l’entreprise",
+          "Analyser l’environnement managérial de l’entreprise",
+          "Mettre en œuvre des modèles de fonctionnement et de contrôle",
+          "Savoir s’entretenir en anglais"
+        ],
+        "modules": [
+          "Gestion comptable et financière",
+          "Droit des affaires et fiscalité",
+          "Marketing stratégique",
+          "Commerce et finances internationaux",
+          "Gestion des ressources humaines et organisation",
+          "Recherche marketing",
+          "La gestion des moyens de communication",
+          "Les stratégies d'achat",
+          "Négociation et animation des équipes de vente",
+          "La logistique et la production"
+        ],
+        "duree": "2 Ans (20 Mois)",
+        "condition_acces": "Licence ou 3 ans des études supérieures",
+        "effectif_prevu": 20,
+        "metiers": [
+          "Manager d’entreprise dans les domaines des services ou de l’industrie"
+        ],
+        "pieces_a_fournir": [
+          "03 Copies de Diplôme légalisés",
+          "03 Extraits d'acte de naissance",
+          "03 Photocopies de la CIN légalisées",
+          "03 Photos d'identité"
+        ]
+      },
+      
+      {
+        "categorie": "La Licence Professionnelle Européenne (FEDE)",
+        "diplomes": [
+          {
+            "id": 5,
+            "titre": "DEESINF : Diplôme Européen d'Etudes Supérieures Informatique et Réseaux",
+            "competences_visees": [
+              "Evaluer et choisir des architectures face à un besoin exprimé.",
+              "Savoir utiliser un logiciel de création de site web.",
+              "Utiliser UML tout au long du cycle de vie de projet.",
+              "Maîtriser un langage objet.",
+              "Installer, administrer, et assurer la maintenance d’un réseau sous une plateforme.",
+              "Implanter, consulter, interroger, et mettre à jour une base de données relationnelle.",
+              "Installer un SGBDR."
+            ],
+            "modules": [
+              "Mathématiques appliquées à l’informatique",
+              "U.M.L : modélisation et conception",
+              "Système de gestion de base de données relationnelles"
+            ],
+            "duree": "1 An (10 Mois)",
+            "condition_acces": "Technicien, Technicien Spécialisé, Deug…",
+            "effectif_prevu": 20,
+            "metiers": [
+              "Responsable de parc",
+              "Administrateur systèmes",
+              "Administrateur réseau",
+              "Développeur",
+              "Webmaster"
+            ],
+            "pieces_a_fournir": [
+              "03 Copies de Diplôme légalisés",
+              "03 Extraits d'acte de naissance",
+              "03 Photocopies de la CIN légalisées",
+              "03 Photos d'identité"
+            ]
+          },
+          {
+            "id": 6,
+            "titre": "DEESTNM : Diplôme Européen d'Etudes Supérieures Techniques Numériques et Multimédia",
+            "competences_visees": [
+              "Savoir appréhender les différentes étapes stratégiques de la conduite d’un projet de site web.",
+              "Connaître les fondamentaux des différents codes graphiques et les techniques de maquettage.",
+              "Maîtriser les logiciels et langages les plus couramment utilisés dans le développement numérique.",
+              "Maîtriser un langage objet.",
+              "Comprendre les concepts de la modélisation et de l’animation 2D et 3D.",
+              "Utiliser les logiciels de traitement de son ; montrer et produire un film ; maîtriser les outils correctifs et les effets spéciaux."
+            ],
+            "modules": [
+              "Contexte de l’environnement numérique",
+              "Ligne éditoriale et culture de l’image",
+              "Design",
+              "Animation"
+            ],
+            "duree": "1 An (10 Mois)",
+            "condition_acces": "Technicien, Technicien Spécialisé, Deug…",
+            "effectif_prevu": 20,
+            "metiers": [
+              "Chef de projet multimédia",
+              "Concepteur et architecte d’applications web",
+              "Web designer",
+              "Développeur flash",
+              "Développeur web",
+              "Motion designer",
+              "Consultant TV numérique et multimédia"
+            ],
+            "pieces_a_fournir": [
+              "03 Copies de Diplôme légalisés",
+              "03 Extraits d'acte de naissance",
+              "03 Photocopies de la CIN légalisées",
+              "03 Photos d'identité"
+            ]
+          },
+          {
+            "id": 7,
+            "titre": "DEESWEB : Diplôme Européen d'Etudes Supérieures Webmaster",
+            "competences_visees": [
+              "Savoir appréhender les différentes étapes stratégiques de la conduite d’un projet de site web.",
+              "Être capable de maîtriser les principales fonctionnalités de l’administration d’un site web.",
+              "Maîtriser les logiciels et langages les plus utilisés dans le développement web.",
+              "Être capable de concevoir des pages web lisibles et esthétiques.",
+              "Comprendre la communication commerciale et le plan marketing dans une optique traditionnelle et numérique."
+            ],
+            "modules": [
+              "L’environnement numérique",
+              "Conduite de projet de site web",
+              "L’image pour un site web",
+              "Langages"
+            ],
+            "duree": "1 An (10 Mois)",
+            "condition_acces": "Technicien, Technicien Spécialisé, Deug…",
+            "effectif_prevu": 20,
+            "metiers": [
+              "Web designer",
+              "Infographiste chargé de la présentation visuelle sur le web",
+              "Webmaster",
+              "Gestionnaire de site Internet et intranet"
+            ],
+            "pieces_a_fournir": [
+              "03 Copies de Diplôme légalisés",
+              "03 Extraits d'acte de naissance",
+              "03 Photocopies de la CIN légalisées",
+              "03 Photos d'identité"
+            ]
+          },
+          {
+            "id": 8,
+            "titre": "DEESARH : Diplôme Européen d'Etudes Supérieures Assistant(e) de Gestion Ressources Humaines",
+            "competences_visees": [
+              "Assurer les fonctions administratives des ressources humaines.",
+              "Gérer les relations avec les salariés et les représentants du personnel.",
+              "Mettre en place des processus de gestion du personnel.",
+              "Gérer les recrutements et les formations.",
+              "Assurer la conformité avec la législation du travail."
+            ],
+            "modules": [
+              "Gestion administrative du personnel",
+              "Législation du travail",
+              "Recrutement",
+              "Formation",
+              "Communication interne",
+              "Relations sociales"
+            ],
+            "duree": "1 An (10 Mois)",
+            "condition_acces": "Technicien, Technicien Spécialisé, Deug…",
+            "effectif_prevu": 20,
+            "metiers": [
+              "Assistant RH",
+              "Gestionnaire du personnel",
+              "Chargé(e) de recrutement",
+              "Chargé(e) de formation"
+            ],
+            "pieces_a_fournir": [
+              "03 Copies de Diplôme légalisés",
+              "03 Extraits d'acte de naissance",
+              "03 Photocopies de la CIN légalisées",
+              "03 Photos d'identité"
+            ]
+          },
+          {
+            "id": 9,
+            "titre": "DEESFI : Diplôme Européen d'Etudes Supérieures en Finance",
+            "competences_visees": [
+              "Analyser la rentabilité et les performances financières d’une entreprise.",
+              "Élaborer des prévisions financières et des budgets.",
+              "Maîtriser les techniques de financement et d’investissement.",
+              "Assurer le suivi des flux financiers de l’entreprise.",
+              "Gérer les risques financiers."
+            ],
+            "modules": [
+              "Gestion financière",
+              "Comptabilité",
+              "Fiscalité",
+              "Financement des entreprises",
+              "Analyse financière"
+            ],
+            "duree": "1 An (10 Mois)",
+            "condition_acces": "Technicien, Technicien Spécialisé, Deug…",
+            "effectif_prevu": 20,
+            "metiers": [
+              "Responsable financier",
+              "Contrôleur de gestion",
+              "Analyste financier",
+              "Auditeur financier"
+            ],
+            "pieces_a_fournir": [
+              "03 Copies de Diplôme légalisés",
+              "03 Extraits d'acte de naissance",
+              "03 Photocopies de la CIN légalisées",
+              "03 Photos d'identité"
+            ]
+          },
+          {
+            "id": 10,
+            "titre": "DEESGEST : Diplôme Européen d'Etudes Supérieures en Management et Gestion des PME",
+            "competences_visees": [
+              "Analyser le fonctionnement d'une PME.",
+              "Maîtriser les outils de gestion de projet.",
+              "Développer une stratégie de croissance pour une PME.",
+              "Gérer les ressources humaines et les finances d’une PME.",
+              "Assurer la gestion des opérations quotidiennes dans une PME."
+            ],
+            "modules": [
+              "Gestion de projet",
+              "Stratégie d'entreprise",
+              "Marketing et vente",
+              "Gestion des ressources humaines",
+              "Gestion des finances"
+            ],
+            "duree": "1 An (10 Mois)",
+            "condition_acces": "Technicien, Technicien Spécialisé, Deug…",
+            "effectif_prevu": 20,
+            "metiers": [
+              "Manager de PME",
+              "Responsable opérationnel",
+              "Chef de projet",
+              "Consultant en gestion de PME"
+            ],
+            "pieces_a_fournir": [
+              "03 Copies de Diplôme légalisés",
+              "03 Extraits d'acte de naissance",
+              "03 Photocopies de la CIN légalisées",
+              "03 Photos d'identité"
+            ]
+          }
+        ]
+      }
+      
+    ]
+  },
+  {
+    "id":2,
+   
+     "categorie": "La Licence Professionnelle Européenne (FEDE)",
+        "image": "https://www.jahinformatique.com/images/licence1.png",
+        "diplomes": [
+          {
+            "titre": "DEESINF : Diplôme Européen d'Études Supérieures Informatique et Réseaux",
+            "competences_visees": [
+              "Évaluer et choisir des architectures face à un besoin exprimé",
+              "Savoir utiliser un logiciel de création de site web",
+              "Utiliser UML tout au long du cycle de vie de projet",
+              "Maîtriser un langage objet",
+              "Installer, administrer et assurer la maintenance d’un réseau sous une plateforme",
+              "Implanter, consulter, interroger et mettre à jour une base de données relationnelle",
+              "Installer un SGBDR"
+            ],
+            "modules": [
+              "Mathématiques appliquées à l’informatique",
+              "UML : modélisation et conception",
+              "Système de gestion de base de données relationnelles"
+            ],
+            "duree": "1 An (10 Mois)",
+            "condition_acces": "Technicien, Technicien Spécialisé, Deug…",
+            "effectif_prevu": "20 stagiaires",
+            "metiers": [
+              "Responsable de parc",
+              "Administrateur systèmes",
+              "Administrateur réseau",
+              "Développeur",
+              "Webmaster"
+            ],
+            "pieces_a_fournir": [
+              "03 Copies de Diplôme légalisées",
+              "03 Extraits d'acte de naissance",
+              "03 Photocopies de la CIN légalisées",
+              "03 Photos d'identité"
+            ]
+          },
+          {
+            "titre": "DEESTNM : Diplôme Européen d'Études Supérieures Techniques Numériques et Multimédia",
+            "competences_visees": [
+              "Conduite stratégique de projet de site web",
+              "Connaissance des codes graphiques et techniques de maquettage",
+              "Maîtrise des logiciels/langages de développement numérique",
+              "Maîtrise d’un langage objet",
+              "Compréhension de la modélisation/animation 2D et 3D",
+              "Utilisation de logiciels de traitement du son, montage vidéo, effets spéciaux"
+            ],
+            "modules": [
+              "Contexte de l’environnement numérique",
+              "Ligne éditoriale et culture de l’image",
+              "Design",
+              "Animation"
+            ],
+            "duree": "1 An (10 Mois)",
+            "condition_acces": "Technicien, Technicien Spécialisé, Deug…",
+            "effectif_prevu": "20 stagiaires",
+            "metiers": [
+              "Chef de projet multimédia",
+              "Web designer",
+              "Développeur flash",
+              "Motion designer",
+              "Consultant TV numérique et multimédia"
+            ],
+            "pieces_a_fournir": [
+              "03 Copies de Diplôme légalisées",
+              "03 Extraits d'acte de naissance",
+              "03 Photocopies de la CIN légalisées",
+              "03 Photos d'identité"
+            ]
+          },
+          {
+            "titre": "DEESWEB : Diplôme Européen d'Études Supérieures Webmaster",
+            "competences_visees": [
+              "Gestion stratégique de projet web",
+              "Maîtrise de l’administration d’un site web",
+              "Maîtrise des outils de développement web",
+              "Conception de pages web lisibles et esthétiques",
+              "Compréhension de la communication commerciale et marketing"
+            ],
+            "modules": [
+              "Environnement numérique",
+              "Conduite de projet de site web",
+              "L’image pour un site web",
+              "Langages"
+            ],
+            "duree": "1 An (10 Mois)",
+            "condition_acces": "Technicien, Technicien Spécialisé, Deug…",
+            "effectif_prevu": "20 stagiaires",
+            "metiers": [
+              "Webdesigner",
+              "Webmaster"
+            ],
+            "pieces_a_fournir": [
+              "03 Copies de Diplôme légalisées",
+              "03 Extraits d'acte de naissance",
+              "03 Photocopies de la CIN légalisées",
+              "03 Photos d'identité"
+            ]
+          },
+          {
+            "titre": "DEESARH : Diplôme Européen d'Études Supérieures Assistant(e) de Gestion Ressources Humaines",
+            "competences_visees": [
+              "Assurer les fonctions administratives RH",
+              "Gérer quotidiennement les salariés",
+              "Gérer les compétences, formations et recrutements"
+            ],
+            "modules": [
+              "Gestion des ressources humaines",
+              "Gestion des candidatures",
+              "Droit du travail",
+              "Gestion des conflits"
+            ],
+            "duree": "1 An (10 Mois)",
+            "condition_acces": "Technicien, Technicien Spécialisé, Deug…",
+            "effectif_prevu": "20 stagiaires",
+            "metiers": [
+              "Responsable formation",
+              "Technicien en gestion du personnel",
+              "Chargé de recrutement",
+              "Adjoint au chef de projet RH"
+            ],
+            "pieces_a_fournir": [
+              "03 Copies de Diplôme légalisées",
+              "03 Extraits d'acte de naissance",
+              "03 Photocopies de la CIN légalisées",
+              "03 Photos d'identité"
+            ]
+          },
+          {
+            "titre": "DEESFI : Diplôme Européen d'Études Supérieures en Finance",
+            "competences_visees": [
+              "Contrôle de l’activité de l’entreprise",
+              "Suivi des actions correctrices",
+              "Optimisation de la rentabilité de la trésorerie",
+              "Analyse des offres financières"
+            ],
+            "modules": [
+              "Analyse financière",
+              "Droit et fiscalité",
+              "Gestion financière et trésorerie"
+            ],
+            "duree": "1 An (10 Mois)",
+            "condition_acces": "Technicien, Technicien Spécialisé, Deug…",
+            "effectif_prevu": "20 stagiaires",
+            "metiers": [
+              "Comptable en contrôle de gestion",
+              "Assistant au contrôle de gestion",
+              "Trésorier",
+              "Assistant à la direction financière"
+            ],
+            "pieces_a_fournir": [
+              "03 Copies de Diplôme légalisées",
+              "03 Extraits d'acte de naissance",
+              "03 Photocopies de la CIN légalisées",
+              "03 Photos d'identité"
+            ]
+          },
+          {
+            "titre": "DEESGEST : Diplôme Européen d'Études Supérieures en Management et Gestion des PME",
+            "competences_visees": [
+              "Maîtrise de la comptabilité",
+              "Calculs de ratios de rentabilité",
+              "Prévision financière",
+              "Maîtrise des règles fiscales",
+              "Connaissances juridiques liées aux ventes",
+              "Gestion des conflits et temps de travail"
+            ],
+            "modules": [
+              "Communication d’entreprise",
+              "Outils de gestion commerciale",
+              "Comptabilité approfondie",
+              "Management stratégique",
+              "Gestion RH"
+            ],
+            "duree": "1 An (10 Mois)",
+            "condition_acces": "Technicien, Technicien Spécialisé, Deug…",
+            "effectif_prevu": "20 stagiaires",
+            "metiers": [
+              "Responsable administratif et financier",
+              "Conseiller de direction",
+              "Consultant junior",
+              "Chargé d'affaires financières",
+              "Responsable de centre de profits"
+            ],
+            "pieces_a_fournir": [
+              "03 Copies de Diplôme légalisées",
+              "03 Extraits d'acte de naissance",
+              "03 Photocopies de la CIN légalisées",
+              "03 Photos d'identité"
+            ]
+          }
+        ]
+      
+    }
+    
+  
+ ]
 }
